@@ -15,6 +15,10 @@ Parsa implemented the Coordinator Agent logic, which parses raw user requirement
 
 Leah developed the Coder Agent and Tester Agent. The Coder Agent transforms structured requirements into fully runnable Python programs using OpenAI. The Tester Agent generates unittest test suites that include both positive and negative test cases, embedding the generated code directly in the test file. Leah optimized prompt clarity, test coverage, and ensured that tests run as standalone files.
 
+### Orchestrator & Web UI (Abdul-Salam Bdaiwi - @bdaiwia-cmyk)
+
+Abdul implemented the Express server, the orchestrator logic that coordinates all three agents, and the complete web interface for submitting requirements and receiving generated code and tests. He integrated the agents, managed API flow, implemented output saving, and ensured end-to-end functionality.
+
 ## Overview
 
 This system uses three specialized AI agents that communicate through MCP to:
