@@ -1,6 +1,8 @@
 // name: abdul-salam bdaiwi, leah kang, parsa salah
 // student id: bdaiwia, leahyk, salahshp
 // agent that generates code
+// CoderAgent: Generates runnable Python code based on structured requirements
+// Core implementation by Leah Kang (@leahkangg)
 
 import { MCPClient } from '../mcp/mcpClient.js';
 import { trackApiCall } from '../utils/modelTracker.js';
