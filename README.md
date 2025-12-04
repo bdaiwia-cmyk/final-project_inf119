@@ -7,6 +7,10 @@ A multi-agent system that uses the Model Context Protocol (MCP) to generate exec
 - Leah Kang
 - Parsa Salah
 
+### Coordinator Agent (Parsa Salah - @salahshp-source)
+
+Parsa implemented the Coordinator Agent logic, which parses raw user requirements, structures them into purpose, features, and constraints, and sends them to the Coder and Tester agents. He contributed to refining the flow between agents, especially how the orchestrator performs requirement parsing and handles errors from the model.
+
 ## Overview
 
 This system uses three specialized AI agents that communicate through MCP to:
