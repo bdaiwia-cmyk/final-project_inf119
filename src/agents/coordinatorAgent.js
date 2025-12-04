@@ -2,6 +2,9 @@
 // student id: bdaiwia, leahyk, salahshp
 // agent that generates code
 
+// CoordinatorAgent: Responsible for parsing requirements into structured format
+// Implemented and refined by Parsa Salah (@salahshp-source)
+
 import { MCPClient } from '../mcp/mcpClient.js';
 import { trackApiCall } from '../utils/modelTracker.js';
 import OpenAI from 'openai';
