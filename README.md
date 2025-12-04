@@ -11,6 +11,10 @@ A multi-agent system that uses the Model Context Protocol (MCP) to generate exec
 
 Parsa implemented the Coordinator Agent logic, which parses raw user requirements, structures them into purpose, features, and constraints, and sends them to the Coder and Tester agents. He contributed to refining the flow between agents, especially how the orchestrator performs requirement parsing and handles errors from the model.
 
+### Coder & Tester Agents (Leah Kang - @leahkangg)
+
+Leah developed the Coder Agent and Tester Agent. The Coder Agent transforms structured requirements into fully runnable Python programs using OpenAI. The Tester Agent generates unittest test suites that include both positive and negative test cases, embedding the generated code directly in the test file. Leah optimized prompt clarity, test coverage, and ensured that tests run as standalone files.
+
 ## Overview
 
 This system uses three specialized AI agents that communicate through MCP to:
